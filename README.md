@@ -40,20 +40,13 @@ cd src/keygen; go run main.go
 After `keygen` service finishes running, there will be several key files generated in the current directory, like the following:
 ```shell
 Total 26G
--rw-rw-r-- 1 ec2-user ec2-user  69M 12月 26 07:49 zkpor864.ccs.ct.save
+ -rww-r-- 1 ec2-user ec2-user  69M 12月 26 07:49 zkpor864.ccs.ct.save
 -rw-rw-r-- 1 ec2-user ec2-user  16G 12月 26 07:51 zkpor864.ccs.save
 -rw-rw-r-- 1 ec2-user ec2-user 1.8G 12月 26 07:51 zkpor864.pk.A.save
 -rw-rw-r-- 1 ec2-user ec2-user 1.6G 12月 26 07:51 zkpor864.pk.B1.save
--rw-rw-r-- 1 ec2-user ec2-user 3.2G 12月 26 07:51 zkpor864.pk.B2.save
--rw-rw-r-- 1 ec2-user ec2-user  59M 12月 26 07:51 zkpor864.pk.E.save
--rw-rw-r-- 1 ec2-user ec2-user 1.9G 12月 26 07:52 zkpor864.pk.K.save
--rw-rw-r-- 1 ec2-user ec2-user  708 12月 26 07:52 zkpor864.vk.save
--rw-rw-r-- 1 ec2-user ec2-user 2.1G 12月 26 07:52 zkpor864.pk.Z.save
-```
-
-### Generate witness
-
-The `witness` service is used to generate witness for `prover` service. 
+-rw-rw-r-- 1 ec2-use r ec2-user 3.2G 12月 26 07:51 zkpor864.pk.B2.save
+-rw-rw-r-- 1 -rw-rw-r-- 1 ec2-user ec2-user  708 12月 26 07:52 zkpor864.vk.
+-rw-rw-r-- 1 ec2-user ec2-user 2.1G 12月 26 07:52 The `witness` service is used to generate witness for `prover` service. 
 
 `witness/config/config.json` is the config file `witness` service use. The sample file is as follows:
 ```json
